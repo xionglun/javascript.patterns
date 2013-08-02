@@ -929,7 +929,7 @@ app.js的开始部分：
 在图2-1中可以看到生成的文档中Person构造函数的生成结果，粗体的部分是：
 
 - @constructor 暗示了这个“类”其实是一个构造函数
-- @prototype 和 @type 用来描述对象的属性
+- @property 和 @type 用来描述对象的属性
 
 YUIDoc工具是语言无关的，只解析注释块，而不是JavaScript代码。它的缺点是必须要在注释中指定属性、参数和方法的名字，比如，@property first_name。好处是一旦你熟练掌握YUIDoc，就可以用它对任何语言源码进行注释的文档化。
 
